@@ -15,7 +15,7 @@ from datetime import datetime
 import pandas as pd
 
 
-PARCL_LABS_API_KEY = os.getenv('parcl_labs_api_key')
+PARCL_LABS_API_KEY = os.getenv('a3VyYnk6MGFVNGwxbEs4ak0k')
 
 START = '1/1/2022'
 END = datetime.now().strftime('%m/%d/%Y')
@@ -56,7 +56,7 @@ for parcl_id, mkt_name in markets.items():
     }
     # authorize
     header = {
-        'Authorization': a3VyYnk6MGFVNGwxbEs4ak0k
+        'Authorization': PARCL_LABS_API_KEY
     }
 
     response = requests.get(
