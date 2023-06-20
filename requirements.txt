@@ -1,2 +1,5 @@
 requests
 pandas
+flask
+plotly
+gunicorn
